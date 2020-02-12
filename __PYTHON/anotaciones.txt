@@ -1,0 +1,69 @@
+sudo apt-get update <-actualiza el ubuntu.
+
+sudo apt-get install python3.6
+tenemos:
+
+python <- es el python versión 2
+
+python3 <- es el python versión 3
+
+
+python -v
+
+Usar la versión 3, es más completa, a menos
+que el proyecto requiera la versión 2, por un tema
+de que ya se empezó a desarrollar con dicha versión.
+
+
+
+CAPITULO 2:
+
+PEMDAS: para recordar.
+-siempre usar parentesis.
+
+
+*para saber que tipo de dato es un valor:
+
+type(2,3)
+
+type(2)
+
+type('cadena')
+
+type(False)
+
+type(1==4)
+
+
+CAPITULO 10:
+scope: ambito -> en el caso de variables.
+python es case sensitive.
+hemos vsto funciones.
+hemos visto funciones con parametros.
+
+existencia de : mainloop()
+
+
+una funcion se declara:
+
+def nombreFuncion():
+    return 2
+
+def nombreFuncion():
+    print('Saludos desde Miami.')
+
+
+ammount = float(raw_input('Ingresa la cantidad de pesos mexicanos que quieres convertir'))
+
+
+tener en cuenta:
+if __name__ == '__main__':
+    run()
+
+Se agrega lo siguiente para poder
+definir el elnguaje de todo nuestro código,
+para que no haya problema con las tildes:
+Esto va al inicio de nuestro código:
+# -*- coding: utf-8 -*-
+
+Veamos las estructuras condicionales:
